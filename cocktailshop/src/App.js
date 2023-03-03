@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./components/Navbar";
+import Buy from './components/Buy'
+import Basket from './components/Basket'
+import Home from './components/Home'
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
 
 
 function App() {
@@ -17,7 +19,7 @@ function App() {
 
     console.log(mybasket);
   }
-  
+
   return (
     <>
       <Navbar/>

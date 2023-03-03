@@ -1,0 +1,63 @@
+.checkOut {
+    background-color: rgba(0, 0, 0, 0.073);
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.checkOut li {
+    list-style: none;
+}
+
+.ul {
+    padding: 0;
+}
+
+.boxOne {
+    display: flex;
+}
+
+.boxtwo {
+    display: flex;
+    margin-top: 20px;
+}
+
+.cardnumber {
+    margin-right: 20px;
+}
+
+.cardholder {
+    margin-right: 20px;
+}
+
+.paymentcontainer {
+    margin-top: 50px;
+}
+
+.hr {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 0.1px solid rgba(0, 0, 0, 0.061);
+  
+}
+
+.buy {
+    background-color: green;
+    border: none;
+    margin-top: 25px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.emptyBasket {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
