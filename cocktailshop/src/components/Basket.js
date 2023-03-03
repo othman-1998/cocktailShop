@@ -14,6 +14,7 @@ export default function Basket(props) {
   return <>
     <ul className='ul'>
       <li>{drink.strDrink}</li>
+      <li>x1</li>
     </ul>
   </> 
 })}

@@ -4,7 +4,6 @@
     margin: auto;
     padding: 20px;
     margin-top: 20px;
-    border-radius: 10px;
 }
 
 .checkOut li {
@@ -13,6 +12,8 @@
 
 .ul {
     padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .boxOne {
@@ -50,7 +51,6 @@
     width: 100%;
     padding: 10px;
     color: white;
-    border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
 }
