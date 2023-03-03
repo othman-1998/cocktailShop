@@ -8,9 +8,8 @@ export default function Home() {
       <div className='homeContainer'>
 
         <div className='hero'>
-          <h3>DIT DAGLIGE BOOST LEVERET LIGE TIL DØREN? <br></br>VI TILBYDER GRATIS LEVERING I STORKØBENHAVN OG OMEGN</h3>
           <button>
-            <Link to="/buy">Shop her</Link>
+            <Link to="/buy">Discover Cocktails</Link>
           </button>
         </div>
 

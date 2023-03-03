@@ -2,15 +2,13 @@
     list-style: none;
     background-color: rgba(0, 0, 0, 0.073);
     padding: 10px 20px;
-    border-radius: 10px;
     width: 30%;
     margin-bottom: 20px;
 }
 
 .list button {
-    background-color: black;
+    background-color: green;
     border: none;
-    border-radius: 5px;
     padding: 10px 35px;
     color: white;
     margin-top: 10px;
@@ -44,12 +42,11 @@
 .list .name {
     background-color: rgb(255, 255, 255);
     padding: 10px;
-    border-radius: 5px;
 }
 
 img {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 span {
