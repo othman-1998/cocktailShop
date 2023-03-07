@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/http//outman1998.github.io/cocktailshop/static/css/main.c5c03e1d.css",
+    "main.js": "/http//outman1998.github.io/cocktailshop/static/js/main.0781c79a.js",
+    "static/js/787.70a8b4b2.chunk.js": "/http//outman1998.github.io/cocktailshop/static/js/787.70a8b4b2.chunk.js",
+    "index.html": "/http//outman1998.github.io/cocktailshop/index.html",
+    "main.c5c03e1d.css.map": "/http//outman1998.github.io/cocktailshop/static/css/main.c5c03e1d.css.map",
+    "main.0781c79a.js.map": "/http//outman1998.github.io/cocktailshop/static/js/main.0781c79a.js.map",
+    "787.70a8b4b2.chunk.js.map": "/http//outman1998.github.io/cocktailshop/static/js/787.70a8b4b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5c03e1d.css",
+    "static/js/main.0781c79a.js"
+  ]
+}
