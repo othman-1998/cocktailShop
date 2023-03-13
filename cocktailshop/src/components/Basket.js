@@ -3,6 +3,7 @@ import './Basket.css'
 
 export default function Basket(props) {
 
+
   console.log("basket js");
   console.log(props.customerBasket);
 
@@ -48,10 +49,12 @@ export default function Basket(props) {
     </div>
   </div>
 
-  <button className='buy'>Buy Cocktails</button>
+  <button onClick={props.onBuy} className='buy'>Buy Cocktails</button>
 
 </div>
 </div> : <p className='emptyBasket'>Your shopping basket is empty</p>
+
+
 
 
   return (

@@ -44,7 +44,7 @@ export default function Buy(props) {
             {drink.strIngredient2} <br></br>
             {drink.strIngredient3} <br></br>
           </div>
-            <p> <span className='price'>Price:</span> <br></br> {Math.floor(Math.random() * 10) +1} DKK</p>
+            <p> <span className='price'>Price:</span> <br></br> {drink.idDrink.slice(0,2)} DKK</p>
             <button onClick={() => {
               addToBasket(drink)
             }}>Add to card</button>

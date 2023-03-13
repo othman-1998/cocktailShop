@@ -20,6 +20,10 @@ function App() {
     console.log(mybasket);
   }
 
+  const buyedItems = function() {
+    console.log("Ordered!!!");
+  }
+
   return (
     <>
       <Navbar/>
@@ -27,7 +31,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/buy" element={<Buy onCatchBasket={CatchBasket}/>}/>
-          <Route path="/basket" element={<Basket customerBasket={mybasket} />}/>
+          <Route path="/basket" element={<Basket onBuy={buyedItems} customerBasket={mybasket} />}/>
         </Routes>
       </div>
     </>
